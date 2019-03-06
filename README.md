@@ -1,6 +1,6 @@
 # mercury_server
 
-This is a wrapper for Postlight'ss Mercury-parser (https://github.com/postlight/mercury-parser). It exposes the parser in a simple API. The intention is to make the parser easily integratable into programming languages other than javascript. 
+This is a wrapper for Postlight's Mercury-parser (https://github.com/postlight/mercury-parser). It exposes the parser in a simple API. The intention is to make the parser easily integratable into programming languages other than javascript. 
 
 ## Server
 
