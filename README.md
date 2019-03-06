@@ -1,6 +1,6 @@
 # mercury_server
 
-This is a wrapper for Postlights Mercury-parser (https://github.com/postlight/mercury-parser) which exposes the parser in a simple API. 
+This is a wrapper for Postlight'ss Mercury-parser (https://github.com/postlight/mercury-parser). It exposes the parser in a simple API. The intention is to make the parser easily integratable into programming languages other than javascript. 
 
 ## Server
 
@@ -24,3 +24,4 @@ page_title = j_response['title']
 
 ## Setup
 
+The server can be run locally just by executing "node index.js" from the command line in the server's directory. Alternatively, you can use the Dockerfile to build a docker image for cloud deployment. The framework is very light and can, for example, run comfortably on a Google Cloud Platform micro-server.
