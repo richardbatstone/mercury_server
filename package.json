@@ -1,13 +1,21 @@
 {
-  "name": "express_app",
+  "name": "mercury-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A wrapper for Postlight's Mercury parser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richardbatstone/mercury_server.git"
+  },
+  "author": "Richard Batstone",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/richardbatstone/mercury_server/issues"
+  },
+  "homepage": "https://github.com/richardbatstone/mercury_server#readme",
   "dependencies": {
     "@postlight/mercury-parser": "^2.0.0",
     "express": "^4.16.4"
