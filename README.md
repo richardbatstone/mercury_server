@@ -30,4 +30,4 @@ The server can be run locally just by:
 * running "npm install" in the server's directory; and
 * running "node index.js" in the server's directory. 
 
-Alternatively, you can use the Dockerfile to build a docker image for cloud deployment. Whilst the wrapper is very light, the node-module dependencies are actually quite larger (~800mb). Nevertheless, it is possible to run a containerised version of the server on a Google Cloud Platform micro-server.
+Alternatively, you can use the Dockerfile to build a docker image for cloud deployment. Whilst the wrapper is very light, the node-module dependencies are actually quite large (~800mb). Nevertheless, it is possible to run a containerised version of the server on a Google Cloud Platform micro-server.
